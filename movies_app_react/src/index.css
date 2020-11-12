@@ -32,7 +32,8 @@ header {
 .movie-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
+  justify-content: center;
+  /* align-items: center; */
 }
 .movie {
   position: relative;
@@ -44,7 +45,9 @@ header {
   box-shadow: 7px 7px 10px rgba(95, 91, 91, 0.5);
 }
 .movie img {
-  max-width: 100%;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
 }
 .movie-info {
   display: flex;
@@ -73,4 +76,22 @@ header {
 
 .movie:hover .movie-over {
   transform: translateY(0%);
+}
+
+.tag {
+  background-color: #22254b;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.tag.green {
+  color: green;
+}
+
+.tag.orange {
+  color: orange;
+}
+
+.tag.red {
+  color: red;
 }
