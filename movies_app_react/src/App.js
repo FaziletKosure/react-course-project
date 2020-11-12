@@ -29,11 +29,14 @@ function App() {
   
   
   return (
+    <div className="container"> 
+     <header>
+    <input className="search" type="search" placeholder="Search..." name="" id=""/>
+  </header>
     <div className="movie-container">
-
       {movies.map(movie=>
         <Movies key={movie.id} {...movie}/>)}
-     
+    </div>
     </div>
   );
 }
