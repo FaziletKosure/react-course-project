@@ -8,12 +8,15 @@ import './App.css';
 
 function App() {
   const style = { position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
+
+  const videoStyle = {  marginTop: "13%", marginLeft: "50%", transform: "translate(-50%, -50%)" };
+
   const FEATURED_API="https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1"
-  // const IMG_API="https://image.tmdb.org/t/p/w1280"
+
   const SEARCH_API="https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query="
 
-  // const apiKey='http://www.omdbapi.com/?apikey=fb9a766c&s=iron&page=20'
-  const [movies, setMovies] = useState([])
+  
+ const [movies, setMovies] = useState([])
 const [searchTerm, setSearchTerm]=useState('')
 const [loading, setLoading]=useState(false)
  
@@ -57,8 +60,13 @@ const [loading, setLoading]=useState(false)
         name="" id=""/>
         </form>
   </header>
+  <div>
+  <video  style={videoStyle} src="/Videos/video1.mp4" width="100%" height="300" controls >
+  </video>
+  </div>
+  
   {loading ?  <div style={style}>
-  <Loader  type="Oval" color="#00BFFF" height={100} width={100}  timeout={8000} style={{}}/>  </div> : <div className="movie-container">
+  <Loader  type="Oval" color="#00BFFF" height={100} width={100}  timeout={8000} />  </div> : <div className="movie-container">
       {movies.map(movie=>
         <Movies key={movie.id} {...movie}/>)}
     </div> }
