@@ -61,7 +61,7 @@ const [loading, setLoading]=useState(false)
         </form>
   </header>
   <div>
-  <video  style={videoStyle} src="/Videos/video1.mp4" width="100%" height="300" controls >
+  <video  style={videoStyle} src="/Videos/video2.mp4" width="100%" height="300" controls >
   </video>
   </div>
   
