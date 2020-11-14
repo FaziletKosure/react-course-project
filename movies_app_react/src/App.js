@@ -1,6 +1,8 @@
 import React, {useState,useEffect} from 'react'
+
 import axios from 'axios'
 import Movies from './components/Movies'
+import Navbar from './components/Navbar'
 import Loader from 'react-loader-spinner'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
@@ -50,6 +52,7 @@ const [loading, setLoading]=useState(false)
     <div className="container"> 
     
      <header>
+       <Navbar/>
        <form onSubmit={handleOnSubmit}> 
        <input
         className="search" 

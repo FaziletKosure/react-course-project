@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  list-style: none;
+  border: 1 solid #22254b;
+}
+
+li {
+  padding: 5px;
+  /* border: 1 solid #22254b; */
+}
