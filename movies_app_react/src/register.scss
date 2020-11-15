@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-container {
+  background: url("./assets/cine.jpg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding-bottom: 65%;
+  position: relative;
+}
+.auth-inner {
+  max-width: 600px;
+  min-width: 35%;
+  padding: 150px 50px;
+  // margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  // min-height: 900px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+}
+.logo {
+  width: 200px;
+  padding: 20px;
+}
+.bg {
+  background-color: #cbe6ff;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.text {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #592e75;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.text-fields {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+}
+.fgpw {
+  font-family: "Itim", cursive;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 25px;
+  a {
+    color: #592e75;
+  }
+}
+.btn-custom {
+  background-color: #592e75 !important;
+  font-family: Itim;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  min-width: 100px;
+  margin-top: 30px;
+}
+.search-component {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  min-width: 80%;
+}
+.logo-container {
+  background: #2c2c2c;
+  border-top-left-radius: 53px;
+  border-top-right-radius: 53px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .auth-inner {
+    padding: 40px 20px;
+    margin: 0 auto;
+  }
+  .logo-container {
+    top: 30%;
+  }
+}

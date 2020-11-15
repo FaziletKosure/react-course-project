@@ -5,4 +5,8 @@ ul {
 
 li {
   padding: 5px;
+  font-size: 1.3rem;
+}
+li img {
+  width: 50px;
 }
