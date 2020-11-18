@@ -40,12 +40,19 @@
 }
 .sign-up-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.sign-up {
+@media only screen and (max-width: 1024px) {
+  .sign-up-container {
+    flex-direction: column;
+  }
+}
+/* .sign-up {
   background-image: url("../src/images/design-min-1-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */
