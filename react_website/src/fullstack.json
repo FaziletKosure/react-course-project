@@ -1,21 +1,20 @@
 [
     {
-        "src":"images/full1.jpg",
-       "text":"Set Sail in the Atlantic Ocean visiting Uncharted Waters",
-       "label":"Mystery",
-       "path":"/services"
+        "src": "images/full1.jpg",
+        "text": "The learning path starts with IT Framework for beginners and continues with Front-end and Back-end developer course modules. ",
+        "label": "FullStack",
+        "path": "/services"
     },
     {
-       "src":"images/full2.jpg",
-        "text":"Experience Football on Top of the Himilayan Mountains",
-        "label":"Adventure",
-        "path":"/products"
+        "src": "images/full2.jpg",
+        "text": "A full-stack developer is a programmer who has the basic knowledge for all layers of an application.",
+        "label": "FullStack",
+        "path": "/products"
     },
     {
-        "src":"images/full3.jpg",
-       "text":"Ride through the Sahara Desert on a guided camel tour",
-        "label":"Adrenaline",
-        "path":"/sign-up"
+        "src": "images/full3.jpg",
+        "text": "They work on the database and debugging of web applications or websites.",
+        "label": "FullStack",
+        "path": "/sign-up"
     }
-     
 ]

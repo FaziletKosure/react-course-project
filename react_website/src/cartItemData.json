@@ -1,16 +1,14 @@
 [
     {
-       "src":"images/dev1.jpg",
-        "text":"Explore the hidden waterfall deep inside the Amazon Jungle",
-        "label":"Adventure",
-        "path":"/services"
+        "src": "images/full11.jpg",
+        "text": "The Full Stack Development program we offer can lead any beginner through the process, or take intermediate to advanced-level professionals to the next level in their careers! ",
+        "label": "FullStack",
+        "path": "/services"
     },
     {
-        "src":"images/dev2.png",
-       "text":"Travel through the Islands of Bali in a Private Cruise",
-       "label":"Luxury",
-       "path":"/services"
+        "src": "images/dev2.png",
+        "text": "Rather than owning their own computing infrastructure or data centers, companies can rent access to many resources ranging from applications to storage via a cloud service provider like AWS.",
+        "label": "DevOps",
+        "path": "/services"
     }
-   
-    
 ]
