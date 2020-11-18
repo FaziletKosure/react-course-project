@@ -64,11 +64,14 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+            
+              <img src="/images/claruswaylogo.jpg" 
+            width="20%"
+            height="60"
+            alt="" srcset=""/>
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>CLARUSWAY © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
