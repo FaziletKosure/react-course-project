@@ -17,19 +17,19 @@
 }
 
 .services {
-  background-image: url("../src/images/img-2.jpg");
+  /* background-image: url("../src/images/img-2.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   color: #fff;
   font-size: 100px;
 }
 
 .products {
-  background-image: url("../src/images/img-8.jpg");
+  /* background-image: url("../src/images/img-8.jpg");
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   color: #fff;
   font-size: 100px;
 }

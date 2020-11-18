@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './compnents/Navbar'
+import Footer from './compnents/Footer'
 import Home from './compnents/pages/Home'
 import Services from './compnents/pages/Services';
 import Products from './compnents/pages/Products';
@@ -18,6 +19,7 @@ function App() {
      <Route path='/products' component={Products} />
       <Route path='/sign-up' component={SignUp} />
    </Switch>
+  
  </Router>
     </>
   );
