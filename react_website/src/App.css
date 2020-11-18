@@ -38,7 +38,9 @@
   z-index: 1;
   height: 30%;
 }
-
+.sign-up-container {
+  display: flex;
+}
 .sign-up {
   background-image: url("../src/images/design-min-1-1.jpg");
   background-position: center;
