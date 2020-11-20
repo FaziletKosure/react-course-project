@@ -68,7 +68,7 @@ function Footer() {
               <img src="/images/claruswaylogo.jpg" 
             width="20%"
             height="60"
-            alt="" srcset=""/>
+            alt="logo"/>
             </Link>
           </div>
           <small class='website-rights'>CLARUSWAY © 2020</small>
