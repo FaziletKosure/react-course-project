@@ -21,7 +21,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarLink to='/ipad'>iPad</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Buy Now</SidebarRoute>
+        <SidebarRoute to='/mciphn'>Buy Now</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

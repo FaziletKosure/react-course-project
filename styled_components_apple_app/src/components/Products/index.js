@@ -1,6 +1,7 @@
 import React from 'react';
 // import Footer from '../Footer';
 import Navbar from '../Navbar';
+import {Link} from 'react-router-dom'
 import {
   ProductsContainer,
   ProductWrapper,
@@ -32,7 +33,7 @@ const Products = ({ heading, data,styled }) => {
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
+                <Link to='/'><ProductButton>{product.button}</ProductButton></Link>
               </ProductInfo>
             </ProductCard>
           );
