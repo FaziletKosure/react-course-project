@@ -11,17 +11,17 @@ import {
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+    <SidebarContainer isOpen={isOpen} >
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink  to='/mac'>Mac</SidebarLink>
-        <SidebarLink to='/iphone12'>iPhon</SidebarLink>
-        <SidebarLink to='/ipad'>iPad</SidebarLink>
+        <SidebarLink onClick={toggle}  to='/mac'>Mac</SidebarLink>
+        <SidebarLink onClick={toggle} to='/iphone12'>iPhon</SidebarLink>
+        <SidebarLink onClick={toggle} to='/ipad'>iPad</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/mciphn'>Buy Now</SidebarRoute>
+        <SidebarRoute onClick={toggle} to='/mciphn'>Buy Now</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );
