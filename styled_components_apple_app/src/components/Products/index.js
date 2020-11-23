@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from "react-router-dom"
 // import Footer from '../Footer';
 import Navbar from '../Navbar';
 import {Link} from 'react-router-dom'
@@ -17,6 +18,7 @@ import {
 
 
 const Products = ({ heading, data,styled }) => {
+  const history = useHistory();
   return (
     <>
     
@@ -27,13 +29,13 @@ const Products = ({ heading, data,styled }) => {
       <ProductWrapper>
         {data.map((product, index) => {
           return (
-            <ProductCard key={index}>
+            <ProductCard key={index}  onClick={() => history.push(`/details/${product.id}`)}>
               <ProductImg src={product.img} alt={product.alt} />
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
-                <ProductDesc>{product.desc}</ProductDesc>
+                {/* <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
-                <Link to='/'><ProductButton>{product.button}</ProductButton></Link>
+                <Link to='/'><ProductButton>{product.button}</ProductButton></Link> */}
               </ProductInfo>
             </ProductCard>
           );

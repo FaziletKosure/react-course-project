@@ -9,7 +9,7 @@ function ProductsPage() {
         <>
         <Products heading='Choose your favorite' data={productData} styled='hidden'/>
         <Products heading='Choose your favorite iphone-12' data={productDataTwo} styled='hidden' />
-        <Feature/>
+        {/* <Feature/> */}
  
          <Products heading='Choose your favorite ipad' data={productDataipad} styled='hidden' />
          <Footer/>

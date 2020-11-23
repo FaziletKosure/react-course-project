@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarMenu>
         <SidebarLink onClick={toggle}  to='/mac'>Mac</SidebarLink>
-        <SidebarLink onClick={toggle} to='/iphone12'>iPhon</SidebarLink>
+        <SidebarLink onClick={toggle} to='/iphone12'>iPhone</SidebarLink>
         <SidebarLink onClick={toggle} to='/ipad'>iPad</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>

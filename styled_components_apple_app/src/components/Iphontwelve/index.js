@@ -2,6 +2,7 @@ import React from 'react'
 import {Iphonvideo } from './IphontwelveElements'
 import {HeroContent,HeroH1,HeroItems,HeroP,HeroBtn} from '../Hero/HeroElements'
 import Navbar from '../Navbar'
+import { SidebarRoute } from '../Sidebar/SidebarElements'
 function Iphontwelve() {
     return (
       <>
@@ -12,7 +13,8 @@ function Iphontwelve() {
           <HeroH1>iPhone 12 Pro</HeroH1>
           <HeroP>It’s a leap year.</HeroP>
           <h6>From $41.62/mo. or $999 before trade‑in1</h6>
-          <HeroBtn>Place Order</HeroBtn>
+          {/* <HeroBtn>Place Order</HeroBtn> */}
+          <SidebarRoute to='/'>Order Now</SidebarRoute>
         </HeroItems>
       </HeroContent>
      
