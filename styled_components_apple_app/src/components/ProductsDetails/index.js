@@ -29,7 +29,8 @@ const ProductsDetails = ({ heading, data,styled }) => {
     
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
-        {data.filter(x=>x.id===parseInt(id)).map((product, index) => {
+        {data.map((product, index) => {
+            if(product.id===parseInt(id)){
                 return (
                     
                     <ProductCard key={index}>
@@ -43,7 +44,7 @@ const ProductsDetails = ({ heading, data,styled }) => {
                   </ProductCard>
               
                 );
-            
+                }
         })}
       </ProductWrapper>
      

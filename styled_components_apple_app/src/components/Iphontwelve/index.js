@@ -14,7 +14,7 @@ function Iphontwelve() {
           <HeroP>It’s a leap year.</HeroP>
           <h6>From $41.62/mo. or $999 before trade‑in1</h6>
           {/* <HeroBtn>Place Order</HeroBtn> */}
-          <SidebarRoute to='/'>Order Now</SidebarRoute>
+          <SidebarRoute to='/iphone12'>Order Now</SidebarRoute>
         </HeroItems>
       </HeroContent>
      
