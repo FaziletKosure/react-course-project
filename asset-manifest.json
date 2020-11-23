@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/static/js/main.fea4e53d.chunk.js",
+    "main.js.map": "/static/js/main.fea4e53d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.946b1bfb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.946b1bfb.js.map",
+    "static/js/2.f20ef5c8.chunk.js": "/static/js/2.f20ef5c8.chunk.js",
+    "static/js/2.f20ef5c8.chunk.js.map": "/static/js/2.f20ef5c8.chunk.js.map",
+    "static/js/3.7b509b69.chunk.js": "/static/js/3.7b509b69.chunk.js",
+    "static/js/3.7b509b69.chunk.js.map": "/static/js/3.7b509b69.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.f20ef5c8.chunk.js.LICENSE.txt": "/static/js/2.f20ef5c8.chunk.js.LICENSE.txt",
+    "static/media/1.5a8e2c83.png": "/static/media/1.5a8e2c83.png",
+    "static/media/2.cf177618.png": "/static/media/2.cf177618.png",
+    "static/media/3.be20ae58.png": "/static/media/3.be20ae58.png",
+    "static/media/Scottsdale.9b00591c.jpg": "/static/media/Scottsdale.9b00591c.jpg",
+    "static/media/ipad1.46a54c13.jpg": "/static/media/ipad1.46a54c13.jpg",
+    "static/media/ipad2.84d41936.jpg": "/static/media/ipad2.84d41936.jpg",
+    "static/media/ipad3.d104f5a1.jpg": "/static/media/ipad3.d104f5a1.jpg",
+    "static/media/iphon12.72bd3ad0.jpg": "/static/media/iphon12.72bd3ad0.jpg",
+    "static/media/mac1.3f0488ac.png": "/static/media/mac1.3f0488ac.png",
+    "static/media/mac2.1ee16a6e.png": "/static/media/mac2.1ee16a6e.png",
+    "static/media/mac3.844e1ac1.png": "/static/media/mac3.844e1ac1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.946b1bfb.js",
+    "static/js/2.f20ef5c8.chunk.js",
+    "static/js/main.fea4e53d.chunk.js"
+  ]
+}
