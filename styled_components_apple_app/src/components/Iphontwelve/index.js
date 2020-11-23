@@ -3,11 +3,12 @@ import {Iphonvideo } from './IphontwelveElements'
 import {HeroContent,HeroH1,HeroItems,HeroP,HeroBtn} from '../Hero/HeroElements'
 import Navbar from '../Navbar'
 import { SidebarRoute } from '../Sidebar/SidebarElements'
+import iphone from '../../video/iPhone.mp4'
 function Iphontwelve() {
     return (
       <>
       <Navbar />
-      <Iphonvideo src='/video/iPhone.mp4' autoPlay loop />
+      <Iphonvideo src={iphone} autoPlay loop />
       <HeroContent>
         <HeroItems>
           <HeroH1>iPhone 12 Pro</HeroH1>
