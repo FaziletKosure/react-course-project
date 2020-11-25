@@ -1,5 +1,4 @@
 import React from 'react'
-import Feature from '../Feature';
 import Footer from '../Footer';
 import Products from '../Products';
 import { productData, productDataTwo,productDataipad } from '../Products/data';
