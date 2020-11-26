@@ -29,8 +29,6 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            {/* TRVL
-            <i class='fab fa-typo3' /> */}
             <img src="/images/claruswaylogo.jpg" 
             width="20%"
             height="40vh"
